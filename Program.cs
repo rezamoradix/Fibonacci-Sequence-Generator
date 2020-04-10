@@ -7,12 +7,13 @@ namespace fib
         static void Main(string[] args)
         {
             long f1 = 0, f2 = 1, f;
+
+            // 
             if (!Array.Exists(args, x => x == "-b"))
             {
                 Console.WriteLine("Fibonacci Sequence Generator: @rezamoradix");
-                Console.WriteLine("example: fib.exe 20");
-                Console.WriteLine("example: fib.exe 20 -b (for bare format)");
-                Console.WriteLine(" ");
+                Console.WriteLine("example: fib.exe [sequence] [options]");
+                Console.WriteLine("         options: -b     bare format \n");
             }
 
             // Fibonacci inital numbers
