@@ -2,4 +2,4 @@
 a simple program to generate Fibonacci sequence
 
 
-clone the repository and exec dotnet run
+clone the repository and exec `dotnet run`
